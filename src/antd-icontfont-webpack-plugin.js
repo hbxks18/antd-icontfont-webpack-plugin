@@ -1,4 +1,3 @@
-// const http = require("http")
 import { get } from "http"
 
 class AntdIcontfontWebpackPlugin {
