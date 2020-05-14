@@ -1,11 +1,14 @@
 {
   "name": "antd-icontfont-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "针对antd的icon图标，将iconfont.cn的远程链接转换为本地资源",
   "main": "dist/index.js",
   "repository": "git@github.com:hbxks18/antd-icontfont-webpack-plugin.git",
   "author": "hbx",
   "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "devDependencies": {
     "rollup": "^2.10.0",
     "@babel/core": "^7.9.6",

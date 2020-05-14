@@ -22,10 +22,10 @@ class AntdIcontfontWebpackPlugin {
       (compilation, callback) => {
         if (this.isCache && this.backup) {
           compilation.assets[this.scriptUrl] = {
-            source: function () {
+            source: () => {
               return this.backup
             },
-            size: function () {
+            size: () => {
               return this.backup.length
             },
           }

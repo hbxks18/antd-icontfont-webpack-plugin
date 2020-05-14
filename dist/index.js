@@ -49,10 +49,10 @@ var AntdIcontfontWebpackPlugin = /*#__PURE__*/function () {
         if (_this.isCache && _this.backup) {
           compilation.assets[_this.scriptUrl] = {
             source: function source() {
-              return this.backup;
+              return _this.backup;
             },
             size: function size() {
-              return this.backup.length;
+              return _this.backup.length;
             }
           };
           callback();
